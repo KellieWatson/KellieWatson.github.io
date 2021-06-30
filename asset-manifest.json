@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.634a37cd.chunk.css",
-    "main.js": "/static/js/main.413507ce.chunk.js",
-    "main.js.map": "/static/js/main.413507ce.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.119874cd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.119874cd.js.map",
-    "static/js/2.8ba943f5.chunk.js": "/static/js/2.8ba943f5.chunk.js",
-    "static/js/2.8ba943f5.chunk.js.map": "/static/js/2.8ba943f5.chunk.js.map",
-    "static/js/3.3e6b7d2b.chunk.js": "/static/js/3.3e6b7d2b.chunk.js",
-    "static/js/3.3e6b7d2b.chunk.js.map": "/static/js/3.3e6b7d2b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.634a37cd.chunk.css.map": "/static/css/main.634a37cd.chunk.css.map",
-    "static/js/2.8ba943f5.chunk.js.LICENSE.txt": "/static/js/2.8ba943f5.chunk.js.LICENSE.txt",
-    "static/media/kelliewatson-selfie-square.1b638d5d.jpg": "/static/media/kelliewatson-selfie-square.1b638d5d.jpg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/kelliewatson.github.io/static/css/main.634a37cd.chunk.css",
+    "main.js": "/kelliewatson.github.io/static/js/main.413507ce.chunk.js",
+    "main.js.map": "/kelliewatson.github.io/static/js/main.413507ce.chunk.js.map",
+    "runtime-main.js": "/kelliewatson.github.io/static/js/runtime-main.a2c649b8.js",
+    "runtime-main.js.map": "/kelliewatson.github.io/static/js/runtime-main.a2c649b8.js.map",
+    "static/js/2.8ba943f5.chunk.js": "/kelliewatson.github.io/static/js/2.8ba943f5.chunk.js",
+    "static/js/2.8ba943f5.chunk.js.map": "/kelliewatson.github.io/static/js/2.8ba943f5.chunk.js.map",
+    "static/js/3.3e6b7d2b.chunk.js": "/kelliewatson.github.io/static/js/3.3e6b7d2b.chunk.js",
+    "static/js/3.3e6b7d2b.chunk.js.map": "/kelliewatson.github.io/static/js/3.3e6b7d2b.chunk.js.map",
+    "index.html": "/kelliewatson.github.io/index.html",
+    "static/css/main.634a37cd.chunk.css.map": "/kelliewatson.github.io/static/css/main.634a37cd.chunk.css.map",
+    "static/js/2.8ba943f5.chunk.js.LICENSE.txt": "/kelliewatson.github.io/static/js/2.8ba943f5.chunk.js.LICENSE.txt",
+    "static/media/kelliewatson-selfie-square.1b638d5d.jpg": "/kelliewatson.github.io/static/media/kelliewatson-selfie-square.1b638d5d.jpg",
+    "static/media/logo.6ce24c58.svg": "/kelliewatson.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.119874cd.js",
+    "static/js/runtime-main.a2c649b8.js",
     "static/js/2.8ba943f5.chunk.js",
     "static/css/main.634a37cd.chunk.css",
     "static/js/main.413507ce.chunk.js"
