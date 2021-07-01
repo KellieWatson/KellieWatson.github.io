@@ -4,13 +4,13 @@ function Qualifications(){
                             "Familiarity with Distributed Software Solutions",
                             "Excellent communication skills, both written and verbal",
                             "Adept facilitator of group discussion and negotiations ",
-                            "Strong analytical and troubleshooting capabilities"]
-    const listQualifications = qualifications.map((qualification)=>
-        <li className="Qualification-bullet" >{qualification.toString()}</li>
-    );
+                            "Strong analytical and troubleshooting capabilities"];
 
-    return(listQualifications);
+    return(qualifications.map((qualification)=>
+            <li className="Qualification-bullet" >{qualification.toString()}</li>
+        ));
 
 
 }
+
 export default Qualifications;
