@@ -1,4 +1,7 @@
-import Card from "./bootstrap.min.css";
+import {Card} from "react-bootstrap";
+import {ListGroup} from "react-bootstrap";
+import './WorkExperience.css';
+
 function WorkExperience(){
 
     const workExperiences = [
@@ -8,7 +11,7 @@ function WorkExperience(){
             city: 'Sun City',
             state:'Arizona',
             hireDate: 2013,
-            lastDayWorked: new Date().toDateString(),
+            lastDayWorked: new Date().getFullYear().toString(),
             contacts:['Alan Watson'],
             description:["Increased revenue and facilitated decreased portfolio risk through the implementation of Option Strategies",
                 "Reduced storage waste by digitizing documentation",
@@ -47,8 +50,20 @@ function WorkExperience(){
                 "Supported cohesive relations by regularly scanning for opportunities to support fellow employees efforts",
                 "Instituted an exemplary work ethic to promote a positive work atmosphere"]
         }];
-    return(workExperiences.map(experience => <li className="Work-experience" >{experience.company.toString()}{' '}
-        {experience.jobTitle}</li>))
+/**
+
+
+ workExperiences.map(experience => <li className="Work-experience" >{experience.company.toString()}{' '}
+ {experience.jobTitle}</li>)
+
+ **/
+
+    return( workExperiences.map(experience => <Card className="Work-experience" ><Card.Body className="Company-info">
+        <Card.Title>{experience.company.toString()}</Card.Title>
+        <Card.Subtitle>{experience.jobTitle}  {experience.hireDate} - {experience.lastDayWorked}</Card.Subtitle>
+        <Card.Text>{experience.description.map(impact => <li className="Impact">{impact.valueOf()}</li>)}</Card.Text></Card.Body></Card>) )
 }
 
 export default WorkExperience;
+
+

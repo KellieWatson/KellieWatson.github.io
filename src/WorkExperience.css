@@ -1,3 +1,13 @@
-.WorkExperience{
+.Work-experience{
+bg : #FFFFFF;
+    color: #0c4128;
+}
+.Company-info{
+    margin: 10rem;
 
+    bg :#000000;
+
+}
+.Impact{
+    text-align: left;
 }

@@ -1,3 +1,4 @@
+
 function Education(){
     const degrees =[{
         school:'Arizona State University',
@@ -20,6 +21,7 @@ function Education(){
             state: "Arizona"
         }
     ]
+
     return(<div></div>);
 }
 

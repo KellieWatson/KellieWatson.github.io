@@ -20,7 +20,9 @@ function Header(){
         </div>
         <div className= "Section">
             <h3 className="Section-header">Work Experience</h3>
+            <div>
             <WorkExperience/>
+            </div>
         </div>
         <div className= "Section">
             <h3 className="Section-header">Education</h3>
