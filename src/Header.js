@@ -13,7 +13,7 @@ function Header(){
     <header className="App-header">
         <Profile/>
         <ContactInfo/>
-        <div className="Section"><h3 className="Section-header">Objective</h3><p>To partner with the diverse team at Intel to help support the development of new innovation in technology.</p></div>
+        <div className="Section"><h3 className="Section-header">Objective</h3><p>To partner with a diverse team and to leverage technology for the benefit of improved production and human innovation.</p></div>
         <div className= "Section">
             <h3 className="Section-header">Qualifications</h3>
             <Qualifications/>

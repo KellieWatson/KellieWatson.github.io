@@ -1,11 +1,12 @@
 .Work-experience{
-bg : #FFFFFF;
-    color: #0c4128;
+    color: white;
+    margin: fill;
+    background-color: #282c34;
+
 }
 .Company-info{
-    margin: 10rem;
-
-    bg :#000000;
+    margin: 5rem;
+    bg : white;
 
 }
 .Impact{
