@@ -1,7 +1,7 @@
 import './style/Footer.css';
 
 function Footer(){
-    return(<footer className="Footer">
+    return(<div className="Footer-div"><footer >
         <a
         className="Website-link"
         href="https://watsonxyz.com"
@@ -10,7 +10,7 @@ function Footer(){
     >
         WatsonXYZ.com
     </a>
-        <p className="Developed-by"> Created by WatsonXYZ </p></footer>);
+        <p className="Developed-by"> Created by WatsonXYZ </p></footer></div>);
 }
 
 export default Footer;

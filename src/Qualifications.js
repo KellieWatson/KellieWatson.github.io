@@ -1,4 +1,5 @@
 import './style/Qualifications.css'
+import {ListGroup} from "react-bootstrap";
 
 function Qualifications(){
  const qualifications = [   "Proficiency with Object Oriented Programming",
@@ -9,7 +10,7 @@ function Qualifications(){
                             "Strong analytical and troubleshooting capabilities"];
 
     return(qualifications.map((qualification)=>
-            <li className="Qualification-bullet" >{qualification.toString()}</li>
+            <ListGroup className="Qualifications"><ListGroup.Item className="Qualification-bullet" >{qualification.toString()}</ListGroup.Item></ListGroup>
         ));
 
 

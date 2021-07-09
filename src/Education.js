@@ -6,17 +6,17 @@ function Education(){
         department:'IRA Fulton School of Engineering',
         degreeType:'Bachelor of Science',
         degree:'Computer Systems Embedded Systems',
-        completionDate: Date.parse( "Decemeber 2015").toString(),
+        completionDate: "Decemeber 2015",
         campus:'Polytechnic',
         city: "Tempe",
         state: "Arizona"
     },
         {
             school:'Glendale Community College',
-            department:'Technology',
+            department:'Computer Science Department',
             degreeType:'Associate in Applied Science',
             degree:'Cisco Networking Technology',
-            completionDate: Date.parse( "2010").toString(),
+            completionDate:2010,
             campus:'Main',
             city: "Glendale",
             state: "Arizona"
@@ -24,8 +24,13 @@ function Education(){
     ];
 
    return(degrees.map(degree =>
-       <Card>
-           <Card.Title className="School">{degree.school}</Card.Title>
-            <Card.Subtitle>{degree.degree}</Card.Subtitle></Card>))
+       <Card className="Degree-card">
+           <Card.Title className="Degree">{degree.school}</Card.Title>
+           <Card.Subtitle className="Department">{degree.department}</Card.Subtitle>
+           <Card.Body className ="School">
+               <li>{degree.degreeType} in {degree.degree}</li>
+               <li>Completion Date: {degree.completionDate}</li>
+           </Card.Body>
+       </Card>))
 }
 export default Education;

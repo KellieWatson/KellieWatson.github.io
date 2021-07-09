@@ -1,4 +1,7 @@
-.Profile {
+.Profile-div {
+    text-align: center;
+}
+.Profile-image {
     height: 9vmin;
     overflow: hidden;
     border-radius: 50%;

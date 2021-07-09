@@ -1,19 +1,20 @@
 .Work-experience{
-    color: white;
-    margin: inherit;
+    color: #ffffff;
     background-color: #282c34;
-
 }
+
 .Company-info{
     margin: 5rem;
     bg : white;
 
 }
 .Company-name{
+    text-shadow: 1px 1px 1px #ccc;
     color: #61dafb;
     font-size: larger;
 }
 .Job-title{
+    text-shadow: 1px 1px 1px #ccc;
     color: #61dafb;
     font-size: medium;
 }

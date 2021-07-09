@@ -7,16 +7,8 @@ function App() {
 
 
   return (
-    <Container className="App">
+    <Container fluid className="App">
         <Resume />
-
-
-      <div className="Contact-info">
-
-
-        </div>
-
-
 
     </Container>
   );

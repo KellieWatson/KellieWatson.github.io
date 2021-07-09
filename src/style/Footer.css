@@ -1,10 +1,11 @@
-.Footer{
+.Footer-div{
     color: #ffffff;
+    text-align: center;
 }
 .Website-link {
     color: #61dafb;
 }
 .Developed-by{
-    color: #ffffff;
+
     font-size: x-small;
 }

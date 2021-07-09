@@ -1,3 +1,14 @@
+.Degree-card{
+    color: #ffffff;
+    background-color: #282c34;
+}
 .School{
-    color: #000000;
+    text-align: center;
+
+}
+.Degree-card{
+    font-size:  medium;
+}
+.Department{
+
 }

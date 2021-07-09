@@ -1,4 +1,19 @@
-
+.Resume-container {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+}
 .Section-header{
+    text-align: center;
     color: #61dafb;
+}
+h3{
+    text-shadow: 1px 1px 1px #ccc;
 }

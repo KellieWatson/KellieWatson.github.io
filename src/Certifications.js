@@ -13,6 +13,6 @@ function Certifications(){
             completionDate : Date.parse("June 14, 2020").toString(),
             expirationDate : Date.parse("June 14, 2022").toString(),
         }]
-    return(certifications.map(certificate => <Card><Card.Title className="Certificate-title">{certificate.certification}</Card.Title></Card>))
+    return(certifications.map(certificate => <Card className="Certification-card"><Card.Title className="Certificate-title">{certificate.certification}</Card.Title></Card>))
 }
 export default Certifications;
