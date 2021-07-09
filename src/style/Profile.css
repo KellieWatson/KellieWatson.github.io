@@ -1,0 +1,10 @@
+.Profile {
+    height: 9vmin;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.Profile-name{
+    color: #61dafb;
+    text-shadow: 1px 1px 1px #aaa;
+
+}

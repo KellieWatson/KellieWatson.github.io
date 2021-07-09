@@ -1,4 +1,5 @@
-import profile from "./kelliewatson-selfie-square.jpg";
+import profile from "./images/kelliewatson-selfie-square.jpg";
+import './style/Resume.css';
 import Qualifications from "./Qualifications";
 import Profile from "./Profile";
 import Footer from "./Footer";
@@ -6,11 +7,12 @@ import ContactInfo from "./ContactInfo";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import Certifications from "./Certifications";
+import {Container} from "react-bootstrap";
 
-function Header(){
+function Resume(){
 
     return(
-    <header className="App-header">
+    <Container fluid='xl' className="App-header">
         <Profile/>
         <ContactInfo/>
         <div className="Section"><h3 className="Section-header">Objective</h3><p>To partner with a diverse team and to leverage technology for the benefit of improved production and human innovation.</p></div>
@@ -33,7 +35,7 @@ function Header(){
             <Certifications/>
         </div>
         <Footer/>
-    </header>
+    </Container>
     );
 }
-export default Header;
+export default Resume;

@@ -1,6 +1,6 @@
 .Work-experience{
     color: white;
-    margin: fill;
+    margin: inherit;
     background-color: #282c34;
 
 }
@@ -8,6 +8,14 @@
     margin: 5rem;
     bg : white;
 
+}
+.Company-name{
+    color: #61dafb;
+    font-size: larger;
+}
+.Job-title{
+    color: #61dafb;
+    font-size: medium;
 }
 .Impact{
     text-align: left;

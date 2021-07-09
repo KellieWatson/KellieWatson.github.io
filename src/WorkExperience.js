@@ -1,6 +1,6 @@
 import {Card} from "react-bootstrap";
 import {ListGroup} from "react-bootstrap";
-import './WorkExperience.css';
+import './style/WorkExperience.css';
 
 function WorkExperience(){
 
@@ -18,7 +18,7 @@ function WorkExperience(){
 "Increased data availability by restructuring financial records into digital format ",
 "Implemented disaster recovery of vital documents",
 "Improved work productivity by reorganizing office layout",
-"Counseled employer through the processing and selection of additional financial advisor and partnering business associates"]
+"Counseled employer through the selection of additional financial advisor and partnering business associates"]
         },
         {
             company: 'Illuminating Minds Computer Tech',
@@ -59,8 +59,7 @@ function WorkExperience(){
  **/
 
     return( workExperiences.map(experience => <Card className="Work-experience" ><Card.Body className="Company-info">
-        <Card.Title>{experience.company.toString()}</Card.Title>
-        <Card.Subtitle>{experience.jobTitle}  {experience.hireDate} - {experience.lastDayWorked}</Card.Subtitle>
+        <Card.Header className="Company-name">{experience.company.toString()} <p className="Job-title">{experience.jobTitle} {experience.hireDate} - {experience.lastDayWorked}</p></Card.Header>
         <Card.Text>{experience.description.map(impact => <li className="Impact">{impact.valueOf()}</li>)}</Card.Text></Card.Body></Card>) )
 }
 

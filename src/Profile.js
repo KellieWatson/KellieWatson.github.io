@@ -1,4 +1,5 @@
-import profile from "./kelliewatson-selfie-square.jpg";
+import profile from "./images/kelliewatson-selfie-square.jpg";
+import './style/Profile.css';
 
 function Profile(){
     return(<div>

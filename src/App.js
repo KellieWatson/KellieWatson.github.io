@@ -1,13 +1,14 @@
-import './App.css';
-import Header from './Header.js';
+import './style/App.css';
+import Resume from './Resume.js';
+import {Container} from "react-bootstrap";
 
 
 function App() {
 
 
   return (
-    <div className="App">
-        <Header />
+    <Container className="App">
+        <Resume />
 
 
       <div className="Contact-info">
@@ -17,7 +18,7 @@ function App() {
 
 
 
-    </div>
+    </Container>
   );
 }
 
