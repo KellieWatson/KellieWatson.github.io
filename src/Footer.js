@@ -1,8 +1,8 @@
 import './style/Footer.css';
-import {Container} from "react-bootstrap";
+import {Card, Container} from "react-bootstrap";
 
 function Footer(){
-    return(<Container fluid className="Footer-div"><footer >
+    return(<Container fluid className="Footer-container"><footer>
         <a
         className="Website-link"
         href="https://watsonxyz.com"
