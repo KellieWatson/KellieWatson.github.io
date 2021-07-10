@@ -7,8 +7,9 @@ function Profile(){
     return(<Jumbotron className="Profile-div">
     <img src ={profile} className="Profile-image" alt="profile"/>
     <h1 className="Profile-name">
-        Kellie Nichole Watson
-    </h1> <ContactInfo/></Jumbotron>);
+        Kellie Watson
+    </h1>
+        <h2 className="Job-title">Computer Engineer</h2><ContactInfo/></Jumbotron>);
 }
 
 export default Profile;

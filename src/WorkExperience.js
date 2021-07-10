@@ -59,7 +59,7 @@ function WorkExperience(){
  **/
 
     return( workExperiences.map(experience => <Card className="Work-experience" ><Card.Body className="Company-info">
-        <Card.Header className="Company-name">{experience.company.toString()} <p className="Job-title">{experience.jobTitle} {experience.hireDate} - {experience.lastDayWorked}</p></Card.Header>
+        <Card.Header className="Company-name">{experience.company.toString()} <p className="Job-title">{experience.hireDate} - {experience.lastDayWorked} {experience.jobTitle} </p></Card.Header>
         <Card.Text>{experience.description.map(impact => <li className="Impact">{impact.valueOf()}</li>)}</Card.Text></Card.Body></Card>) )
 }
 
