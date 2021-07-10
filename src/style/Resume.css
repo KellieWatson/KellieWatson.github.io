@@ -13,6 +13,8 @@
 }
 .Section{
     padding-left: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .Section-header{
     text-align: left;
