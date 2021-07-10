@@ -4,8 +4,8 @@
 }
 .Website-link {
     color: #61dafb;
+    text-shadow: 1px 1px 1px #ccc;
 }
 .Developed-by{
-
     font-size: x-small;
 }

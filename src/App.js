@@ -7,11 +7,10 @@ function App() {
 
 
   return (
-    <Container fluid className="App">
+    <Container className="App" fluid>
         <Resume />
 
     </Container>
   );
 }
-
 export default App;

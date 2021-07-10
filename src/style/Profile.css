@@ -9,5 +9,7 @@
 .Profile-name{
     color: #61dafb;
     text-shadow: 1px 1px 1px #aaa;
-
+}
+.Job-title{
+    font-size: xx-large;
 }

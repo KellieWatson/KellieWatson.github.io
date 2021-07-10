@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Col, Row} from "react-bootstrap";
 import {ListGroup} from "react-bootstrap";
 import './style/WorkExperience.css';
 
@@ -11,7 +11,7 @@ function WorkExperience(){
             city: 'Sun City',
             state:'Arizona',
             hireDate: 2013,
-            lastDayWorked: new Date().getFullYear().toString(),
+            lastDayWorked: "Present",
             contacts:['Alan Watson'],
             description:["Increased revenue and facilitated decreased portfolio risk through the implementation of Option Strategies",
                 "Reduced storage waste by digitizing documentation",
@@ -58,9 +58,24 @@ function WorkExperience(){
 
  **/
 
-    return( workExperiences.map(experience => <Card className="Work-experience" ><Card.Body className="Company-info">
-        <Card.Header className="Company-name">{experience.company.toString()} <p className="Job-title">{experience.hireDate} - {experience.lastDayWorked} {experience.jobTitle} </p></Card.Header>
-        <Card.Text>{experience.description.map(impact => <li className="Impact">{impact.valueOf()}</li>)}</Card.Text></Card.Body></Card>) )
+    return( workExperiences.map(experience =>
+        <Card className="Work-experience" >
+        <Card.Header>
+            <Row>
+            <Col xs={2} className="Timeframe">{experience.hireDate} - {experience.lastDayWorked} </Col>
+            <Col className="Job-data">
+                  <Row>
+                      <Col md="auto" className="Company-name">{experience.company.toString()}:</Col>
+                    <Col  className="Job-title">{experience.jobTitle}</Col>
+                  </Row>
+                <Row className="Location">{experience.city}, {experience.state}</Row>
+            </Col>
+            </Row>
+        </Card.Header>
+        <Card.Body className="Experience-details">
+            <Card.Text>{experience.description.map(impact => <li className="Impact">{impact.valueOf()}</li>)}</Card.Text>
+        </Card.Body>
+    </Card>) )
 }
 
 export default WorkExperience;
