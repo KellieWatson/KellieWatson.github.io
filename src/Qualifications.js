@@ -10,7 +10,7 @@ function Qualifications(){
                             "Strong analytical and troubleshooting capabilities"];
 
     return(qualifications.map((qualification)=>
-            <ListGroup className="Qualifications"><ListGroup.Item className="Qualification-bullet" >{qualification.toString()}</ListGroup.Item></ListGroup>
+            <ListGroup className="Qualifications"><li className="Qualification-bullet" >{qualification.toString()}</li></ListGroup>
         ));
 
 
