@@ -1,0 +1,14 @@
+.Header-container{
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    background-color: #282c34;
+}
+.Brand{
+    color: #61dafb;
+    text-shadow: 1px 1px 1px #aaa;
+}
+.Nav-bar{
+    color: white;
+}
+.Header-button{
+    margin: 10px;
+}

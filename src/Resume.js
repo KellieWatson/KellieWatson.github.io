@@ -13,11 +13,8 @@ import Objective from "./Objective";
 function Resume(){
 
     return(
-    <Container fluid='xl' className="Resume-container">
-        <Row >
+    <Container fluid className="Resume-container">
         <Profile/>
-        </Row>
-
         <Row className="Section"><h3 className="Section-header">Objective:</h3>
         <Objective/>
         </Row>
@@ -37,9 +34,7 @@ function Resume(){
             <h3 className="Section-header">Certifications:</h3>
             <Certifications/>
         </Row>
-        <Row>
-        <Footer/>
-        </Row>
+
     </Container>
     );
 }

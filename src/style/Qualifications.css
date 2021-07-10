@@ -1,12 +1,11 @@
 .Qualifications {
-    color: #ffffff;
     background-color: #282c34;
 }
 .Qualification-bullet{
-    color: #ffffff;
     background-color: #282c34;
-    padding-left: 50px;
-    margin-left: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 250px;
     margin: fill;
     text-align: left;
     list-style: circle;

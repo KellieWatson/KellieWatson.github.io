@@ -1,6 +1,9 @@
 .Footer-div{
     color: #ffffff;
     text-align: center;
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    background-color: #282c34;
+    color: white;
 }
 .Website-link {
     color: #61dafb;

@@ -1,7 +1,8 @@
 import './style/Footer.css';
+import {Container} from "react-bootstrap";
 
 function Footer(){
-    return(<div className="Footer-div"><footer >
+    return(<Container fluid className="Footer-div"><footer >
         <a
         className="Website-link"
         href="https://watsonxyz.com"
@@ -10,7 +11,7 @@ function Footer(){
     >
         WatsonXYZ.com
     </a>
-        <p className="Developed-by"> Created by WatsonXYZ </p></footer></div>);
+        <p className="Developed-by"> Created by WatsonXYZ </p></footer></Container>);
 }
 
 export default Footer;
