@@ -1,4 +1,4 @@
-import {Card} from "react-bootstrap";
+import {Card, Col, Row} from "react-bootstrap";
 import './style/Education.css';
 function Education(){
     const degrees =[{
@@ -16,7 +16,7 @@ function Education(){
             department:'Computer Science Department',
             degreeType:'Associate in Applied Science',
             degree:'Cisco Networking Technology',
-            completionDate:2010,
+            completionDate:"May 2010",
             campus:'Main',
             city: "Glendale",
             state: "Arizona"
@@ -25,12 +25,16 @@ function Education(){
 
    return(degrees.map(degree =>
        <Card className="Degree-card">
-           <Card.Title className="Degree">{degree.school}</Card.Title>
-           <Card.Subtitle className="Department">{degree.department}</Card.Subtitle>
-           <Card.Body className ="School">
-               <li>{degree.degreeType} in {degree.degree}</li>
-               <li>Completion Date: {degree.completionDate}</li>
-           </Card.Body>
+           <Row>
+               <Col xs={2}>{degree.completionDate}</Col>
+               <Col>
+                 <Card.Title className="Degree">{degree.school}: {degree.department}</Card.Title>
+                 <Card.Subtitle className="Department">{degree.degree}, {degree.degreeType}</Card.Subtitle>
+                <Card.Body className ="School">
+                </Card.Body>
+            </Col>
+           </Row>
+           <Row></Row>
        </Card>))
 }
 export default Education;

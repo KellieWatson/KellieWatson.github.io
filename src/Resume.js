@@ -8,6 +8,7 @@ import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import Certifications from "./Certifications";
 import {Container, Row} from "react-bootstrap";
+import Objective from "./Objective";
 
 function Resume(){
 
@@ -17,7 +18,9 @@ function Resume(){
         <Profile/>
         </Row>
 
-        <Row className="Section"><h3 className="Section-header">Objective:</h3><p align="center">To partner with a diverse team and to leverage technology for the benefit of improved production and human innovation.</p></Row>
+        <Row className="Section"><h3 className="Section-header">Objective:</h3>
+        <Objective/>
+        </Row>
         <Row className= "Section">
             <h3 className="Section-header">Qualifications:</h3>
             <Qualifications/>
