@@ -3,8 +3,8 @@
     background-color: #282c34;
     border: none;
 }
-.Completion-date{
-    font-size: x-large;
+.Completion-date {
+    font-size: calc(10px + 2vmin);
 }
 .School{
     text-align: center;
