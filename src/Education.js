@@ -6,7 +6,7 @@ function Education(){
         department:'IRA Fulton School of Engineering',
         degreeType:'Bachelor of Science',
         degree:'Computer Systems Embedded Systems',
-        completionDate: "Decemeber 2015",
+        completionDate: "2015",
         campus:'Polytechnic',
         city: "Tempe",
         state: "Arizona"
@@ -16,7 +16,7 @@ function Education(){
             department:'Computer Science Department',
             degreeType:'Associate in Applied Science',
             degree:'Cisco Networking Technology',
-            completionDate:"May 2010",
+            completionDate:"2010",
             campus:'Main',
             city: "Glendale",
             state: "Arizona"
@@ -26,7 +26,7 @@ function Education(){
    return(degrees.map(degree =>
        <Card className="Degree-card">
            <Row>
-               <Col xs={2}>{degree.completionDate}</Col>
+               <Col xs={2} className="Completion-date">{degree.completionDate}</Col>
                <Col>
                  <Card.Title className="Degree">{degree.school}: {degree.department}</Card.Title>
                  <Card.Subtitle className="Department">{degree.degree}, {degree.degreeType}</Card.Subtitle>

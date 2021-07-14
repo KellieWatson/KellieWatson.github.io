@@ -60,9 +60,9 @@ function WorkExperience(){
 
     return( workExperiences.map(experience =>
         <Card className="Work-experience" >
-        <Card.Header>
+        <Card.Header className="Work-header">
             <Row>
-            <Col xs={2} className="Timeframe">{experience.hireDate} - {experience.lastDayWorked} </Col>
+            <Col xs={3} className="Timeframe">{experience.hireDate} - {experience.lastDayWorked} </Col>
             <Col className="Job-data">
                   <Row>
                       <Col md="auto" className="Company-name">{experience.company.toString()}:</Col>

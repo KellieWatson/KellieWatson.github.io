@@ -1,6 +1,6 @@
 .Qualifications {
     background-color: #282c34;
-    padding-left: 250px;
+    padding-left: 15vw;
 }
 .Qualification-bullet{
     background-color: #282c34;
@@ -10,6 +10,5 @@
     text-align: left;
     color: #ffffff;
     display: list-item;
-    border: 50px;
     font-size: medium;
 }

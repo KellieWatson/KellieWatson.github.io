@@ -4,6 +4,11 @@
     border: none;
     padding-top: 0;
     padding-bottom: 0;
+    box-shadow: none;
+}
+.Work.header{
+    border: none ;
+    box-shadow: none;
 }
 .Job-data{
     alignment: left;
@@ -25,16 +30,16 @@ alignment: left;
     text-shadow: 1px 1px 1px #ccc;
     color: #61dafb;
     font-size: large;
-    padding-top: 13px;
+    padding-top: 1.5vh;
 }
 .Location{
     text-shadow: 1px 1px 1px #ccc;
     color: #61dafb;
     font-size: medium;
-    padding-left: 20px;
+    padding-left: 1vw;
 }
 .Impact{
-    margin-left: 13rem;
+    margin-left: 13vw;
     text-align: left;
     font-size: medium;
 }
