@@ -6,7 +6,8 @@
     padding-bottom: 0;
     box-shadow: none;
 }
-.Work.header{
+.Work-header{
+    background-color: #282c34;
     border: none ;
     box-shadow: none;
 }
@@ -43,5 +44,4 @@ alignment: left;
     text-align: left;
     font-size: medium;
 }
-
 
