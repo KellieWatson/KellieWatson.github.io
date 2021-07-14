@@ -30,7 +30,6 @@ function App() {
     });
     return (
         <Container className="App" fluid>
-            <Header />
             <Resume />
             <Footer/>
 

@@ -10,10 +10,11 @@
     font-size: calc(10px + 2vmin);
     color: white;
     text-align: left;
+    padding-top: 1.5vh;
 }
 .Section{
     padding-left: 13vw;
-    padding-top: 2vh;
+    padding-top: 1vh;
     padding-bottom: 2vh;
 }
 .Section-header{
