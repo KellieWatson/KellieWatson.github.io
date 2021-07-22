@@ -5,11 +5,11 @@ function Footer(){
     return(<Container fluid className="Footer-container"><footer>
         <a
         className="Website-link"
-        href="https://watsonxyz.vercel.app"
+        href="https://watsonxyz.com"
         target="_blank"
         rel="noopener noreferrer"
     >
-        WatsonXYZ.vercel.app
+        WatsonXYZ.com
     </a>
         <p className="Developed-by"> Created by WatsonXYZ </p></footer></Container>);
 }
