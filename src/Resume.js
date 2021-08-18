@@ -1,9 +1,6 @@
-import profile from "./images/kelliewatson-selfie-square.jpg";
 import './style/Resume.css';
 import Qualifications from "./Qualifications";
 import Profile from "./Profile";
-import Footer from "./Footer";
-import ContactInfo from "./ContactInfo";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import Certifications from "./Certifications";
@@ -11,7 +8,6 @@ import {Container, Row} from "react-bootstrap";
 import Objective from "./Objective";
 
 function Resume(){
-
     return(
     <Container fluid className="Resume-container">
         <Profile/>

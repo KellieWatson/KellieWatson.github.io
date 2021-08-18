@@ -2,8 +2,8 @@ import './style/Qualifications.css'
 import {ListGroup} from "react-bootstrap";
 
 function Qualifications(){
- const qualifications = [   "Proficiency with Java SE and the Object Oriented paradigm ",
-                            "Experience with React and the NextJS Framework ",
+ const qualifications = [   "Proficiency with Java SE and the Object Oriented paradigm",
+                            "Experience programming IoT with RaspberryPi and Arduino",
                             "Familiarity with Git's distributed version control",
                             "Adept facilitator of group discussion and negotiations ",
                             "Excellent communication skills, both written and verbal",
