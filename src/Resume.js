@@ -6,6 +6,8 @@ import Education from "./Education";
 import Certifications from "./Certifications";
 import {Container, Row} from "react-bootstrap";
 import Objective from "./Objective";
+import Navigation from "./Navigation";
+import React from "react";
 
 function Resume(){
     return(

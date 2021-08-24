@@ -6,7 +6,7 @@ import Resume from './Resume.js';
 import {Container} from "react-bootstrap";
 import Profile from "./Profile";
 import Footer from "./Footer";
-import Header from "./Header"
+import Navigation from "./Navigation"
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
     });
     return (
         <Container className="App" fluid>
-            <Resume />
+            <Navigation />
             <Footer/>
 
         </Container>

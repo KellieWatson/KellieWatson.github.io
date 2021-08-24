@@ -2,6 +2,7 @@ import profilePic from "./images/kelliewatson-selfie-square.jpg";
 import './style/Profile.css';
 import ContactInfo from "./ContactInfo";
 import {Col, Container, Jumbotron, Row} from "react-bootstrap";
+import Navigation from "./Navigation";
 
 function Profile(){
     return(<Container fluid className="Profile-div">
