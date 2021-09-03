@@ -44,7 +44,9 @@ function CoverLetter(){
         I truly appreciate the consideration of my candidacy for your company and look forward to future correspondence.
         </p>
         <p> Sincerely,
+            <div>
         Kellie Watson
+            </div>
         </p>
 
     </div>
