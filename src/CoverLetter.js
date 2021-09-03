@@ -13,7 +13,7 @@ function CoverLetter(){
     <div className="text-white">
 
         <p className="Cover-Letter">
-        I am a Computer Engineer. My study in computer systems coupled with my extensive experience in
+            My study in computer systems coupled with my extensive experience in
             customer service makes me a prime candidate for any highly productive development team.</p>
        <p> I would first like to expand upon the details of my education. In December 2015 I completed a Bachelor of
            Science in Computer Systems (Embedded Systems) at the Arizona State University, a
