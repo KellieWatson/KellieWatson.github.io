@@ -10,13 +10,13 @@ import Certifications from "./Certifications";
 import "./style/CoverLetter.css"
 function CoverLetter(){
     return(<div>
-    <div className="text-white">
+    <div className="Cover-Letter">
 
-        <p className="Cover-Letter">
+        <p>
             My study in computer systems coupled with my extensive experience in
             customer service makes me a prime candidate for any highly productive development team.</p>
        <p> I would first like to expand upon the details of my education. In December 2015 I completed a Bachelor of
-           Science in Computer Systems (Embedded Systems) at the Arizona State University, a
+           Science in Computer Systems, Embedded Systems, at the Arizona State University, a
            division of the IRA A. Fulton Schools of Engineering. During the course of my education I developed
            a solid foundational understanding of computer systems and the networks they create. My studies include
            operating system development, low level logic and design, networking, distributed systems, and programming
