@@ -1,6 +1,8 @@
 .Header-container{
     font-family: 'Droid Serif', Georgia, Times, serif;
     background-color: #282c34;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .Brand{
     color: #61dafb;

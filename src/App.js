@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import "tailwindcss/tailwind.css"
 import './style/App.css';
-import Resume from './Resume.js';
 import {Container} from "react-bootstrap";
-import Profile from "./Profile";
 import Footer from "./Footer";
 import Navigation from "./Navigation"
-
+import Profile from "./Profile";
+import Header from "./Header";
 
 function App() {
     const [dimensions, setDimensions] = React.useState({
@@ -30,7 +29,8 @@ function App() {
     });
     return (
         <Container className="App" fluid>
-            <Navigation />
+            <Profile/>
+            <Navigation/>
             <Footer/>
 
         </Container>

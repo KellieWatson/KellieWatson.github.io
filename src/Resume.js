@@ -12,7 +12,6 @@ import React from "react";
 function Resume(){
     return(
     <Container fluid className="Resume-container">
-        <Profile/>
         <Row className="Section"><h3 className="Section-header">Objective:</h3>
         <Objective/>
         </Row>
