@@ -1,4 +1,5 @@
 .Qualifications {
+    font-size: large;
     background-color: #282c34;
     padding-left: 15vw;
 }
@@ -10,5 +11,5 @@
     text-align: left;
     color: #ffffff;
     display: list-item;
-    font-size: medium;
+    font-size: large;
 }
