@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.14ce2c1f.chunk.css",
+    "main.css": "/static/css/main.da0ccef2.chunk.css",
     "main.js": "/static/js/main.8ed83f2d.chunk.js",
     "main.js.map": "/static/js/main.8ed83f2d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc362f3f.js",
@@ -12,7 +12,7 @@
     "static/js/3.c9a7a621.chunk.js.map": "/static/js/3.c9a7a621.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.9c49cc28.chunk.css.map": "/static/css/2.9c49cc28.chunk.css.map",
-    "static/css/main.14ce2c1f.chunk.css.map": "/static/css/main.14ce2c1f.chunk.css.map",
+    "static/css/main.da0ccef2.chunk.css.map": "/static/css/main.da0ccef2.chunk.css.map",
     "static/js/2.155a1ffe.chunk.js.LICENSE.txt": "/static/js/2.155a1ffe.chunk.js.LICENSE.txt",
     "static/media/kelliewatson-selfie-square.1b638d5d.jpg": "/static/media/kelliewatson-selfie-square.1b638d5d.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.cc362f3f.js",
     "static/css/2.9c49cc28.chunk.css",
     "static/js/2.155a1ffe.chunk.js",
-    "static/css/main.14ce2c1f.chunk.css",
+    "static/css/main.da0ccef2.chunk.css",
     "static/js/main.8ed83f2d.chunk.js"
   ]
 }
