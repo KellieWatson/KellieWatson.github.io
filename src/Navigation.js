@@ -22,7 +22,7 @@ function Navigation(){
             </Nav>
         </Navbar>
         <Switch>
-            <Route exact path="/" className="Route" component={CoverLetter}></Route>
+            <Route exact path="/" className="Route" component={Resume}></Route>
             <Route exact path="/CoverLetter" className="Route" component={CoverLetter}></Route>
             <Route path="/Resume" className="Route">{Resume}</Route>
         </Switch>
