@@ -5,7 +5,7 @@ function Footer(){
     return(<Container fluid className="Footer-container"><footer>
         <a
         className="Website-link"
-        href="https://watsonxyz.com"
+        href="https://watsonxyz-kelliewatson.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
     >
