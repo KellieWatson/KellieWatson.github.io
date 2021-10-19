@@ -29,7 +29,7 @@ function App() {
     });
     return (
         <Container className="App" fluid>
-            <Profile/>
+         {/*   <Profile/>*/}
             <Navigation/>
             <Footer/>
 
