@@ -13,8 +13,6 @@ function Qualifications(){
     return(qualifications.map((qualification)=>
             <ListGroup className="Qualifications"><li className="Qualification-bullet" >{qualification.toString()}</li></ListGroup>
         ));
-
-
 }
 
 export default Qualifications;
