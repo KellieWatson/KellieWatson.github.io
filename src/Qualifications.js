@@ -3,7 +3,7 @@ import {ListGroup} from "react-bootstrap";
 
 function Qualifications(){
  const qualifications = [   "Proficiency with Java SE and the Object Oriented paradigm",
-                            "Familiarity with both Spring and NextJS frameworks",
+                            "Familiarity with Spring and NextJS Frameworks",
                             "Experience with Git's distributed version control",
                             "Adept facilitator of group discussion and negotiations ",
                             "Excellent communication skills, both written and verbal",
