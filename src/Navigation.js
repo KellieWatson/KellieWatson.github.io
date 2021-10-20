@@ -6,6 +6,7 @@ import Resume from "./Resume";
 import CoverLetter from "./CoverLetter.js"
 import profilePic from "./images/kelliewatson-selfie-square.jpg";
 import ContactInfo from "./ContactInfo";
+import Profile from "./Profile";
 function Navigation(){
     return(<Container fluid className="Header-container">
         <BrowserRouter>
@@ -22,15 +23,7 @@ function Navigation(){
                     <p>Resume</p>
                 </Button>
                 </Link>
-
-            <div className="md:mx-80">
-                <div className="mx-20">
-            <img src ={profilePic} className="xs:invisible md:visible rounded-full h-5 w-5 lg:visible rounded-full h-20 w-20" alt="profile"/>
-                </div>
-            <h1 className="Profile-name pt-2 text-4xl">Kellie Watson</h1>
-            <h1 className="Job-title pt-0 ">Computer Engineer</h1>
-            <ContactInfo/>
-            </div>
+            <Profile/>
             </Nav>
             </div>
         </Navbar>
