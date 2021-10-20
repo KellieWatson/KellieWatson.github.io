@@ -10,7 +10,8 @@ function Navigation(){
     return(<Container fluid className="Header-container">
         <BrowserRouter>
         <Navbar>
-            <Nav className="flex items-center flex-wrap border-b p-4">
+            <div className="grid justify-content-stretch">
+            <Nav className="flex items-center flex-wrap p-4">
                 <Link to="/CoverLetter" className="Topics">
                 <Button variant="outline-light" className="Header-button">
                     <p>Cover Letter</p>
@@ -21,12 +22,16 @@ function Navigation(){
                     <p>Resume</p>
                 </Button>
                 </Link>
-            </Nav>
-            <div className="flex-items-center">
-            <img src ={profilePic} className="Profile-image" alt="profile"/>
-            <h1 className="Profile-name">Kellie Watson</h1>
-            <h1 className="Job-title">Computer Engineer</h1>
+
+            <div className="md:mx-80">
+                <div className="mx-20">
+            <img src ={profilePic} className="xs:invisible md:visible rounded-full h-5 w-5 lg:visible rounded-full h-20 w-20" alt="profile"/>
+                </div>
+            <h1 className="Profile-name pt-2 text-4xl">Kellie Watson</h1>
+            <h1 className="Job-title pt-0 ">Computer Engineer</h1>
             <ContactInfo/>
+            </div>
+            </Nav>
             </div>
         </Navbar>
         <Switch>
